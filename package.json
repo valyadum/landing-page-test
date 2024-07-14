@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vite build --base=/vanilla-app-template/",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.5.2",
-    "glob": "^8.1.0"
+    "glob": "^8.1.0",
+    "sass": "^1.77.8",
+    "vite": "^4.5.2"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
