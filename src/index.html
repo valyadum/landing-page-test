@@ -11,13 +11,452 @@
 
 <body>
   <div class="wrapper">
-    <load ="partials/header.html" />
-    <main class="page">
-    <load ="partials/hero.html" />
-    <load ="partials/about.html" />
+    <!-- <load ="partials/header.html" /> -->
+    <header class="header">
+      <div class="header__container" id="header">
+        <a href="#header" class="header__logo">
+          <img src="./img/Logo.png" alt="logo">
+        </a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#hero" class="menu__link">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">About us</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Services</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Portfolio</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Blog</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Pages</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger__menu" data-menu-open> Menu
+          <svg width="24" height="24">
+            <use href="./svg/sprite.svg#icon-Menu-2"></use>
+          </svg>
+        </div>
+        <div class="mob-menu is-hidden" data-menu>
+          <a href="#header" class="header__logo__burger">
+            <img src="./img/Logo.png" alt="logo">
+          </a>
+          <ul class="mob__menu__list">
+            <li class="mob__menu__item">
+              <a href="#hero" class="mob__menu__link">Home</a>
+            </li>
+            <li class="mob__menu__item">
+              <a href="#" class="mob__menu__link">About us</a>
+            </li>
+            <li class="mob__menu__item">
+              <a href="#" class="mob__menu__link">Services</a>
+            </li>
+            <li class="mob__menu__item">
+              <a href="#" class="mob__menu__link">Portfolio</a>
+            </li>
+            <li class="mob__menu__item">
+              <a href="#" class="mob__menu__link">Blog</a>
+            </li>
+            <li class="mob__menu__item">
+              <a href="#" class="mob__menu__link">Pages</a>
+            </li>
+            <li class="mob__menu__item">
+              <a href="#" class="mob__menu__link">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
+    <main class="page">
+      <!-- <load ="partials/hero.html" /> -->
+      <section class="page__hero hero" id="hero">
+        <div class="hero__container">
+          <div class="hero__images__left">
+            <img src="./img/Frame 533.png" alt="img" class="hero__image__left-1">
+            <img src="./img/Frame 541.png" alt="img" class="hero__image__left-1">
+            <img src="./img/Frame 534.png" alt="img" class="hero__image__left-1">
+          </div>
+          <div class="hero__content content-hero">
+            <div class="content__link">
+              <ul class="content__link__list">
+                <li class="content__link__item">
+                  <a href="#" class="header__social">
+                    <svg width="24px" height="24px" style="fill: inherit; stroke: white;">
+                      <use xlink:href="./svg/sprite.svg#icon-Facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="content__link__item">
+                  <a href="#" class="header__social">
+                    <svg width="24px" height="24px" style="fill: inherit; stroke: white;">
+                      <use xlink:href="./svg/sprite.svg#icon-YouTube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="content__link__item">
+                  <a href="#" class="header__social">
+                    <svg width="24px" height="24px" style="fill: inherit; stroke: white;">
+                      <use xlink:href="./svg/sprite.svg#icon-Instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="content__link__item">
+                  <a href="#" class="header__social">
+                    <svg width="24px" height="24px" style="fill: white; stroke: white;">
+                      <use xlink:href="./svg/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="hero__content__text content-hero">
+              <div class="content__title-all">
+                <h6 class="content__title__small content__subtitle"> IT SOLUTIONS</h6>
+              </div>
+              <div class="content__title">
+                <h1 class="content__title__main"> Providing The Best Services & IT<a href="#"
+                    class="content__title__main__link">Solutions</a></h1>
+              </div>
+              <div class="content-hero__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed architecto dolorum inventore totam
+                  adipisci</p>
+              </div>
+              <button href="#" class="content__button">Start now
+                <svg width="24px" height="24px">
+                  <use xlink:href="./svg/sprite.svg#icon-Arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="hero__images__right">
+            <img src="./img/hero-img.png" alt="hero-img" class="hero__images__right__one">
+          </div>
+        </div>
+      </section>
+      <!-- <load ="partials/about.html" /> -->
+      <section class="page__about about" id="about">
+        <div class="about__container">
+          <div class="about__left__content">
+            <h6 class="about__left__subtitle content__subtitle">ABOUT US</h6>
+            <h3 class="about__left__title content__title">
+              Trusted By Worldwide <br />
+              Clients Since <span>1980</span>
+            </h3>
+            <p class="about__text content__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              A officia molestiae dolorum tempora ut accusamus cupiditate!
+              Nesciunt tempora reiciendis libero voluptate!
+            </p>
+            <button class="about__button content__button">Get in touch
+              <svg width="24px" height="24px">
+                <use xlink:href="./svg/sprite.svg#icon-Arrow"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="about__right__content">
+            <ul class="about__list">
+              <li class="about__item">
+                <svg width="48px" height="48px" style="fill: #fff; stroke: #000;">
+                  <use xlink:href="./svg/sprite.svg#icon-Star"></use>
+                </svg>
+                <div class="about-small-container">
+                  <h5 class="about__right__title content__title__medium">
+                    First On Field
+                  </h5>
+                  <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste
+                  </p>
+                </div>
+              </li>
+              <li class="about__item">
+                <svg width="48px" height="48px" style="fill: #fff; stroke: #000;">
+                  <use xlink:href="./svg/sprite.svg#icon-Map"></use>
+                </svg>
+                <div class="about-small-container">
+                  <h5 class="about__right__title content__title__medium">Worldwide services</h5>
+                  <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste
+                  </p>
+                </div>
+              </li>
+              <li class="about__item">
+                <svg width="48px" height="48px" style="fill: #fff; stroke: #000;">
+                  <use xlink:href="./svg/sprite.svg#icon-Check"></use>
+                </svg>
+                <div class="about-small-container">
+                  <h5 class="about__right__title content__title__medium">Easy to reach</h5>
+                  <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste
+                  </p>
+                </div>
+              </li>
+              <li class="about__item">
+                <svg width="48px" height="48px" style="fill: #fff; stroke: #000;">
+                  <use xlink:href="./svg/sprite.svg#icon-Help"></use>
+                </svg>
+                <div class="about-small-container">
+                  <h5 class="about__right__title content__title__medium">24/7 Support</h5>
+                  <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste</p>
+                </div>
+          </div>
+          </li>
+          </ul>
+        </div>
+        </div>
+      </section>
+      <!-- <load ="partials/services.html" /> -->
+      <section class="page__services services" id="services">
+        <div class="services__container">
+          <div class="services__right__section">
+            <div class="services__right__section__img">
+              <img src="./img/work-video-conference.png" alt="video conference">
+            </div>
+            <div class="services__right__section_text">
+              <h6 class="content__subtitle">SERVICES</h6>
+              <h3 class="content__title">Services We Offer</h3>
+              <p class="content__text">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Omnis Id Atque
+                Dignissimos Repellat Quae Ullam.</p>
+              <button class="content__button">See all services
+                <svg width="24px" height="24px">
+                  <use xlink:href="./svg/sprite.svg#icon-Arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="services__left__section">
+            <div class="services__left__section__card">
+              <h5 class="content__title__medium">Web Development</h5>
+              <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Neque repellendus minima reiciendis nobis dolore obcaecati.</p>
+              <a href="#" class="content_link">Read more
+                <svg width="24px" height="24px" style="fill: #000; stroke: #000;">
+                  <use xlink:href="./svg/sprite.svg#icon-Forward"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="services__left__section__button">
+              <ul class="services-list">
+                <li class="services-item">
+                  <button class="services-button">
+                    Web Development
+                  </button>
+                </li>
+                <li class="services-item">
+                  <button class="services-button">
+                    Digital Marketing
+                  </button>
+                </li>
+                <li class="services-item">
+                  <button class="services-button">
+                    SaaS Products
+                  </button>
+                </li>
+                <li class="services-item">
+                  <button class="services-button">
+                    Apps Development
+                  </button>
+                </li>
+                <li class="services-item">
+                  <button class="services-button">
+                    SEO Services
+                  </button>
+                </li>
+                <li class="services-item">
+                  <button class="services-button">
+                    Data Analysis
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- <load ="partials/choose.html" /> -->
+    <section class="choose">
+      <div class="choose__container" id="choose">
+        <div class="choose__right__section">
+          <div class="choose__right__section__img">
+            <img src="../img/business-business-deal.png" alt="video conference">
+          </div>
+          <div class="choose__right__section_text">
+            <h6 class="content__subtitle">WHY CHOOSE US</h6>
+            <h3 class="content__title">Why Our Customers <br />
+              Choose <span>Working</span> With Us</h3>
+            <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              A officia molestiae dolorum tempora ut accusamus cupiditate!
+              Nesciunt tempora reiciendis libero voluptate!</p>
+            <button class="content__button">Get in touch
+              <svg width="24px" height="24px">
+                <use xlink:href="./svg/sprite.svg#icon-Arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="choose__left__section">
+          <ul class="choose__list">
+            <li class="choose__item">
+              <div class="choose-mark">01.</div>
+              <div class="choose-content">
+                <h5 class="content__title__medium">Latest Technologies</h5>
+                <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima
+                  reiciendis nobis dolore obcaecati.</p>
+              </div>
+            </li>
+            <li class="choose__item">
+              <div class="choose-mark">02.</div>
+              <div class="choose-content">
+                <h5 class="content__title__medium">Uniqe Solutions</h5>
+                <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima
+                  reiciendis nobis dolore obcaecati.</p>
+              </div>
+            </li>
+            <li class="choose__item">
+              <div class="choose-mark">03.</div>
+              <div class="choose-content">
+                <h5 class="content__title__medium">Powerful Strategies</h5>
+                <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Neque repellendus minima reiciendis nobis dolore obcaecati.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- <load ="partials/advantages.html" /> -->
+    <section class="advantages">
+      <div class="advantages__container" id="advantages">
+        <ul class="advantages-card-list">
+          <li class="advantages-card-item first-card">
+            <svg width="48px" height="48px" style="fill: transparent; stroke: #000">
+              <use xlink:href="./svg/sprite.svg#icon-Checkbox"></use>
+            </svg>
+            <span>758+</span>
+            <p>Finished Projects</p>
+          </li>
+          <li class="advantages-card-item second-card">
+            <svg width="48px" height="48px" style="fill: transparent; stroke: #000">
+              <use xlink:href="./svg/sprite.svg#icon-Document"></use>
+            </svg>
+            <span>23</span>
+            <p>Created jobs</p>
+          </li>
+          <li class="advantages-card-item third-card">
+            <svg width="48px" height="48px" style="fill: transparent; stroke: #000">
+              <use xlink:href="./svg/sprite.svg#icon-Happy"></use>
+            </svg>
+            <span>200+</span>
+            <p>Happy customers</p>
+          </li>
+          <li class="advantages-card-item fourth-card">
+            <svg width="48px" height="48px" style="fill: transparent; stroke: #000">
+              <use xlink:href="./svg/sprite.svg#icon-Years"></use>
+            </svg>
+            <span>28+</span>
+            <p>Years of experience</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- <load ="partials/portfolio.html" /> -->
+    <section class="portfolio">
+      <div class="portfolio__container" id="portfolio">
+        <div class="portfolio__text__content">
+          <h6 class="content__subtitle">PORTFOLIO</h6>
+          <h3 class="content__title">Awesome Portfolio</h3>
+        </div>
+        <div class="portfolio-button">
+          <ul class="services-list">
+            <li class="services-item">
+              <button class="services-button">
+                All
+              </button>
+            </li>
+            <li class="services-item">
+              <button class="services-button">
+                Mobile apps
+              </button>
+            </li>
+            <li class="services-item">
+              <button class="services-button">
+                Cloud
+              </button>
+            </li>
+            <li class="services-item">
+              <button class="services-button">
+                Data Analysis
+              </button>
+            </li>
+            <li class="services-item">
+              <button class="services-button">
+                Hosting
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="portfolio__card">
+          <ul class="portfolio__card__list">
+            <li class="portfolio__card__item pink-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item blue-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item green-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item peach-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item pink-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item blue-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item green-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item peach-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+          </ul>
+        </div>
+        <div class="portfolio__card__mob">
+          <ul class="portfolio__card__list">
+            <li class="portfolio__card__item pink-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item blue-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item green-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item peach-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item light-red-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+            <li class="portfolio__card__item pink-card">
+              <img src="../img/shopping-online-gifting.png" alt="online shopping">
+            </li>
+    
+          </ul>
+        </div>
+      </div>
+    </section>
     </main>
-<load ="partials/footer.html" />
+   <!-- <load ="partials/footer.html" /> -->
+    
   </div>
   <script type="module" src="./main.js"></script>
 </body>
@@ -25,3 +464,4 @@
 </html>
 
 <!-- https://youtu.be/UOB3lIkkdZg?t=6885 -->
+ 

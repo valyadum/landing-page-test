@@ -29,10 +29,9 @@
 <symbol id="icon-Call" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M6.667 5.333h5.333l2.667 6.667-3.333 2c1.428 2.895 3.771 5.239 6.667 6.667l2-3.333 6.667 2.667v5.333c0 0.707-0.281 1.385-0.781 1.886s-1.178 0.781-1.886 0.781c-5.201-0.316-10.106-2.525-13.791-6.209s-5.893-8.59-6.209-13.791c0-0.707 0.281-1.386 0.781-1.886s1.178-0.781 1.886-0.781z"></path>
 </symbol>
-<symbol id="icon-Check" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M12 6.667h-2.667c-0.707 0-1.386 0.281-1.886 0.781s-0.781 1.178-0.781 1.886v16c0 0.707 0.281 1.386 0.781 1.886s1.178 0.781 1.886 0.781h13.333c0.707 0 1.386-0.281 1.886-0.781s0.781-1.178 0.781-1.886v-16c0-0.707-0.281-1.386-0.781-1.886s-1.178-0.781-1.886-0.781h-2.667"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M17.333 4h-2.667c-1.473 0-2.667 1.194-2.667 2.667s1.194 2.667 2.667 2.667h2.667c1.473 0 2.667-1.194 2.667-2.667s-1.194-2.667-2.667-2.667z"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M12 18.667l2.667 2.667 5.333-5.333"></path>
+<symbol id="icon-Check1" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M16 28c6.627 0 12-5.373 12-12s-5.373-12-12-12c-6.627 0-12 5.373-12 12s5.373 12 12 12z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M12 15.999l2.667 2.667 5.333-5.333"></path>
 </symbol>
 <symbol id="icon-Checkbox" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M12 14.667l4 4 10.667-10.667"></path>
@@ -116,6 +115,19 @@
 <path d="M15.36 0.64c8.483 0 15.36 6.877 15.36 15.36s-6.877 15.36-15.36 15.36c-8.483 0-15.36-6.877-15.36-15.36s6.877-15.36 15.36-15.36z"></path>
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M8.96 22.4l12.8-12.8"></path>
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M21.76 21.12v-11.52h-11.52"></path>
+</symbol>
+<symbol id="icon-Menu-2" viewBox="0 0 31 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M15.36 0.64c8.483 0 15.36 6.877 15.36 15.36s-6.877 15.36-15.36 15.36c-8.483 0-15.36-6.877-15.36-15.36s6.877-15.36 15.36-15.36z"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color2, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M10.24 10.24h10.24"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color2, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M10.24 16h10.24"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color2, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M10.24 21.76h10.24"></path>
+</symbol>
+<symbol id="icon-Date" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M24.001 6.666h-16c-1.473 0-2.667 1.194-2.667 2.667v16c0 1.473 1.194 2.667 2.667 2.667h16c1.473 0 2.667-1.194 2.667-2.667v-16c0-1.473-1.194-2.667-2.667-2.667z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M21.334 4v5.333"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M10.666 4v5.333"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M5.334 14.666h21.333"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M13.333 20h-2.667v2.667h2.667v-2.667z"></path>
 </symbol>
 </defs>
 </svg>
