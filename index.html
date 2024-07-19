@@ -8,7 +8,7 @@
   <title>Landing Page</title>
   
   <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/vanilla-app-template/assets/index-6dfbf0ef.css">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/index-233b7255.css">
 </head>
 
 <body>
@@ -87,25 +87,25 @@
         <nav class="header__menu menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#hero" class="menu__link">Home</a>
+              <a data-goto="#hero" href="#" class="menu__link active">Home</a>
             </li>
             <li class="menu__item">
-              <a href="#about" class="menu__link">About us</a>
+              <a data-goto="#about" href="#" class="menu__link">About us</a>
             </li>
             <li class="menu__item">
-              <a href="#services" class="menu__link">Services</a>
+              <a data-goto="#services" href="#" class="menu__link">Services</a>
             </li>
             <li class="menu__item">
-              <a href="#portfolio" class="menu__link">Portfolio</a>
+              <a data-goto="#portfolio" href="#" class="menu__link">Portfolio</a>
             </li>
             <li class="menu__item">
-              <a href="#blog" class="menu__link">Blog</a>
+              <a data-goto="#blog" href="#" class="menu__link">Blog</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Pages</a>
+              <a data-goto="#pages" href="#" class="menu__link">Pages</a>
             </li>
             <li class="menu__item">
-              <a href="#footer" class="menu__link">Contact us</a>
+              <a data-goto="#footer" href="#" class="menu__link">Contact us</a>
             </li>
           </ul>
         </nav>
@@ -119,31 +119,32 @@
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAAAdCAYAAAANW/o+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANWSURBVHgB7ZhNbtNAFMf/4/QroqjpAqk7Bok97QlwTlByAtIT0K5Y1jlB2xMAEqzTniBmg9jVYg8My65qCVBbqnSYV4/xxJ4kEyeoH8lPerLjGT9n/n7z3owZFJ3gjDN5+UadriurYTiHks3v1IOqwJTAtEjHcBPIJFZibUyLWJ4SaQ+ji0TUdBROBZ6yFyjPOqYED+NRJhLvJOMKNTXMhHLkpoUKlEll33HLmcOIfFlm+LwCfFJ2ssBQbf+SDIhUU3SFSuu8cT+XC85C/a4A79cYDh+xQptMqt86Q7ephNtfxGUrbqzGuEc4TT0S6fVTzyqShe0/mO/U2qf3qiI6RRRF0tcqnKEIu8D8rjrdwWQh8dN1n1AWDujLlfnKKLIj3T/dogltzr497agvJwtwjaQ820vtnz4mAw2CdgGn+kjWQVIEbAvmPd1G/dr6fFdfp/v8nO/2MN9zYEpt2XNjDx/WSol0TUVePyjE+NAfp2igl/pOHzf1NRpk3XgOibGtz+naRyTRFcAeFDbfL/U9/3x7Et0tDIiqb9XyQl0xtonxaSLbKm0gESHQ5wf6errn5MhEomlf133JRwvFnUQ/308M3yQ8vHqwKiTrbqjIOoSFUXKTBY7xSQdyhGJeCYzncKMvvfh9S998QPgDfO8bz+fXyZzEUocGLNA6CTfLY32MLG3mwDmyiOk3Q8iHb/xeMa7nEaZvl+WBQHkijM8PfXxuaTO/XghkAtVQnGYcxa8drr4jB6HkEUrC2EhCcYvRYNOU4CPLP0BWCYkQWUmPddteru8uiuK5+o6HCiVhz10uXMlKy7ErR1KO80Z/PkRvYqWvsWn5TqvVlm6n8/SZTSQl3yz1IvfcMOe708/3UKHOGw9DJdcBRkXKgwnu+0gwEkAgGYCP5K2HSKqVMPpSEqbBRbqPr9vrsKcR07ffz7dT7aftCG1LpOMXTdokL+BBPW6wGJMn/Q8CxaTNka3GaSbkk/uxvt9cdzn5dl4kkVgXmAvULa8GdlSRtMiWg/8k0jA4sk82tBYSjm1DGXk1udQ+U6XyMlCz9pkRYcJTSb+r3mIyVW+UdIsi0Dtd6QVzZW+R5bSphiOJHGkxErGGEpTfn9x+mkgiKV1U0j4uxIwZM+4SfwFQQA8lIXEkqwAAAABJRU5ErkJggg==" alt="logo">
           </a>
           <ul class="mob__menu__list">
-            <li class="mob__menu__item">
-              <a href="#hero" class="mob__menu__link">Home</a>
-            </li>
-            <li class="mob__menu__item">
-              <a href="#about" class="mob__menu__link">About us</a>
-            </li>
-            <li class="mob__menu__item">
-              <a href="#services" class="mob__menu__link">Services</a>
-            </li>
-            <li class="mob__menu__item">
-              <a href="#portfolio" class="mob__menu__link">Portfolio</a>
-            </li>
-            <li class="mob__menu__item">
-              <a href="#blog" class="mob__menu__link">Blog</a>
-            </li>
-            <li class="mob__menu__item">
-              <a href="#pages" class="mob__menu__link">Pages</a>
-            </li>
-            <li class="mob__menu__item">
-              <a href="#footer" class="mob__menu__link">Contact us</a>
-            </li>
+                        <li class="mob__menu__item ">
+                          <a data-goto="#hero" href="#" class="menu__link active">Home</a>
+                        </li>
+                        <li class="mob__menu__item">
+                          <a data-goto="#about" href="#" class="menu__link">About us</a>
+                        </li>
+                        <li class="mob__menu__item">
+                          <a data-goto="#services" href="#" class="menu__link">Services</a>
+                        </li>
+                        <li class="mob__menu__item">
+                          <a data-goto="#portfolio" href="#" class="menu__link">Portfolio</a>
+                        </li>
+                        <li class="mob__menu__item">
+                          <a data-goto="#blog" href="#" class="menu__link">Blog</a>
+                        </li>
+                        <li class="mob__menu__item">
+                          <a data-goto="#pages" href="#" class="menu__link">Pages</a>
+                        </li>
+                        <li class="mob__menu__item">
+                          <a data-goto="#footer" href="#" class="menu__link">Contact us</a>
+                        </li>
           </ul>
         </div>
       </div>
     </header>
+    <div class="overlay" id="overlay"></div>
 
     <main class="page">
       <!-- <section class="page__hero hero" id="hero">
